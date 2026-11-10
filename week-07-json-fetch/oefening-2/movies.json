@@ -1,1 +1,6 @@
-[]
+[
+  { "title": "I am legend",             "director": "Francis Lawrence",   "year": 2007, "genre": "action" },
+  { "title": "clayface",                "director": "James Watkins",      "year": 2026, "genre": "gore" },
+  { "title": "conjuring",               "director": "James Wan",          "year": 2013, "genre": "horror" },
+  { "title": "coraline",                "director": "Henry Selick",       "year": 2009, "genre": "adventure" }
+]

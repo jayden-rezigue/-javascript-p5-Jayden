@@ -1,3 +1,15 @@
+fetch('./movies.json')
+  .then(response => response.json())
+  .then(movies => {
+        const list = document.querySelector('#films');
+    movies.forEach(movie => {
+      const li = document.createElement('li');
+      li.textContent = `${movie.title} — ${movie.director} — ${movie.year} — ${movie.genre} `;
+      list.appendChild(li);
+    });
+  })
+  .catch(error => console.error('Fout:', error));
+
 // Vul eerst movies.json met minimaal 4 films:
 // [{"title":"","director":"","year":0,"genre":""}]
 
